@@ -1,7 +1,5 @@
 // This code find maximum clique with heuristic, the worst case will cost 2^n but average runtime is much better
-int n, m, a, b;
 bitset<50> near[50];
-vector<int> v, g;
 
 inline bitset<50> MaximumClique(bitset<50> rem, bitset<50> cur, int best)
 {
